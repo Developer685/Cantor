@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor walutowy</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/container.css" rel="stylesheet">
+    <script defer src="JS/Function.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <form class="form js-form">
+            <fieldset class="form__fildest">
+                <legend class="form__legend">
+                    <h1>Kantor</h1>
+                </legend>
+                <p>
+                    Wyliczenia kantora opierają się na kursie walut z dnia 01.08.2023<br>
+                    <label>
+                        Wpisz kwotę:
+                        <input class="js-input form__input" type=number step=0.01 required autofocus
+                            placeholder="(tylko liczby)" name="Wpisz kwotę">
+                    </label>
+                </p>
+                <p>
+                    Wybierz walutę:
+
+                    <select class="js-optionInput form__select">
+                        <option class="form__option" value="EUR">EUR</option>
+                        <option class="form__option" value="PLN">PLN</option>
+                        <option class="form__option" value="USD">USD</option>
+                    </select>
+
+                    <br> Wybierz walutę na którą chcesz przewalutować:
+
+                    <select class="js-option-result form__select">
+
+                        <option class="form__option" value="EUR">EUR</option>
+                        <option class="form__option" value="PLN">PLN</option>
+                        <option class="form__option" value="USD">USD</option>
+                    </select>
+
+                </p>
+                <p>
+
+                </p>
+            </fieldset>
+            <p>
+                <button class="form__button">Przelicz</button>
+                <button class="form__button" type="reset">Wyczyść formularz</button>
+                <span class="form__span">Kwota po przeliczeniu:<strong class="js-result">0</strong></span>
+
+            </p>
+
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
