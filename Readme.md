@@ -1,5 +1,8 @@
-#Cantor
-This page is for changing currency
-##Description
-You can use choose 3 currency: USD, PLN, EUR.
+# Jakub Kulik
+## Demo
 
+https://developer685.github.io/homepage/
+
+## Description
+
+This webside serves for changing three currencies: EUR, PLN, USD
