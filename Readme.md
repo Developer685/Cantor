@@ -1,8 +1,8 @@
-# Jakub Kulik
-## Demo
-
+# Cantor
+## Author Jakub Kulik
+### Demo: 
 https://developer685.github.io/homepage/
 
-## Description
+### Description
 
 This webside serves for changing three currencies: EUR, PLN, USD
