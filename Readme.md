@@ -1,7 +1,6 @@
 # Cantor
 ## Author Jakub Kulik
-### Demo: 
-[Cantor](https://developer685.github.io/Cantor/)
+### Demo: [Cantor](https://developer685.github.io/Cantor/)
 
 ### Description
 
