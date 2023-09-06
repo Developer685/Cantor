@@ -1,7 +1,7 @@
 # Cantor
 ## Author Jakub Kulik
 ### Demo: 
-https://developer685.github.io/homepage/
+[https://developer685.github.io/homepage/](https://developer685.github.io/Cantor/)
 
 ### Description
 
